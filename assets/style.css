@@ -25,6 +25,11 @@ a {
     text-align: center;
     text-shadow:2px 2px black;
     text-decoration: none;
+    opacity: 95%;
+}
+a:hover {
+    opacity: 100%;
+    box-shadow: gray 2px 2px;
 }
 
 .info {
@@ -143,4 +148,15 @@ footer {
 
 footer a {
     font-size: 18px;
+}
+
+button {
+    background-color: rgb(51, 71, 82);
+    opacity: 70%;
+}
+
+button:hover {
+    cursor:pointer;
+    box-shadow: rgb(129, 71, 110) 2px 2px;
+    opacity: 90%;
 }
