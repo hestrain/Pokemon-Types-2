@@ -1,0 +1,146 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+    font-size: 30px;
+    padding: 2px 5px;
+    flex-wrap: wrap;
+    margin: 5px;
+    border-radius: 6px;
+    text-align: center;
+    text-shadow:2px 2px black;
+    text-decoration: none;
+}
+
+.info {
+    font-size: 20px;
+}
+
+article {
+    text-align: center;
+    padding: 20px 15px 30px 15px;
+}
+
+.str {
+    font-weight: 800;
+    text-decoration-line: underline;
+    text-decoration-color: crimson;
+    text-decoration-thickness: 4px;
+}
+
+.weak {
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(242, 240, 79);
+    text-decoration-thickness: 4px;
+}
+
+.noEffect {
+    font-weight:1000;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color:white;
+}
+
+.bug {
+    background-color: rgb(151, 218, 109);
+    width: fit-content;
+    min-width: 70px;
+}
+.dark {
+    background-color: rgb(73, 48, 28);
+    width: fit-content;
+    min-width: 70px;
+}
+.dragon {
+    background-color: rgb(61, 2, 156);
+    width: fit-content;
+}
+.electric {
+    background-color: rgb(229, 214, 2);
+    width: fit-content;
+}
+.fairy {
+    background-color: rgb(243, 152, 255);
+    width: fit-content;
+    min-width: 70px;
+}
+.fire {
+    background-color: rgb(255, 119, 8);
+    width: fit-content;
+    min-width: 70px;
+}
+.fighting {
+    background-color: rgb(176, 16, 16);
+    width: fit-content;
+}
+.flying {
+    background-color: rgb(172, 129, 232);
+    width: fit-content;
+}
+.ghost {
+    background-color: rgb(85, 50, 116);
+    width: fit-content;
+}
+.grass {
+    background-color: rgb(13, 151, 29);
+    width: fit-content;
+}
+.ground {
+    background-color: rgb(172, 152, 72);
+    width: fit-content;
+}
+.ice {
+    background-color: rgb(48, 202, 202);
+    width: fit-content;
+    min-width: 70px;
+}
+.normal {
+    background-color: rgb(117, 105, 86);
+    width: fit-content;
+}
+.poison {
+    background-color: rgb(104, 20, 130);
+    width: fit-content;
+}
+.psychic {
+    background-color: rgb(204, 24, 114);
+    width: fit-content;
+}
+.rock {
+    background-color: rgb(110, 93, 6);
+    width: fit-content;
+    min-width: 70px;
+}
+.steel {
+    background-color: rgb(131, 145, 216);
+    width: fit-content;
+}
+.water {
+    background-color: rgb(1, 64, 189);
+    width: fit-content;
+}
+
+footer {
+    text-align: right;
+    margin-top: 40px;
+}
+
+footer a {
+    font-size: 18px;
+}
