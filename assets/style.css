@@ -39,6 +39,7 @@ a:hover {
 article {
     text-align: center;
     padding: 20px 15px 30px 15px;
+    line-height: 45px;
 }
 
 .str {
