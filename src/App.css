@@ -16,7 +16,7 @@ nav {
     flex-wrap: wrap;
 }
 
-a {
+button {
     font-size: 30px;
     padding: 2px 5px;
     flex-wrap: wrap;
@@ -27,7 +27,7 @@ a {
     text-decoration: none;
     opacity: 95%;
 }
-a:hover {
+button:hover {
     opacity: 100%;
     box-shadow: gray 2px 2px;
 }
@@ -63,81 +63,81 @@ article {
     text-decoration-color:white;
 }
 
-.bug {
+.Bug {
     background-color: rgb(151, 218, 109);
     width: fit-content;
     min-width: 70px;
 }
-.dark {
+.Dark {
     background-color: rgb(73, 48, 28);
     width: fit-content;
     min-width: 70px;
 }
-.dragon {
+.Dragon {
     background-color: rgb(61, 2, 156);
     width: fit-content;
 }
-.electric {
+.Electric {
     background-color: rgb(229, 214, 2);
     width: fit-content;
 }
-.fairy {
+.Fairy {
     background-color: rgb(243, 152, 255);
     width: fit-content;
     min-width: 70px;
 }
-.fire {
+.Fire {
     background-color: rgb(255, 119, 8);
     width: fit-content;
     min-width: 70px;
 }
-.fighting {
+.Fighting {
     background-color: rgb(176, 16, 16);
     width: fit-content;
 }
-.flying {
+.Flying {
     background-color: rgb(172, 129, 232);
     width: fit-content;
 }
-.ghost {
+.Ghost {
     background-color: rgb(85, 50, 116);
     width: fit-content;
 }
-.grass {
+.Grass {
     background-color: rgb(13, 151, 29);
     width: fit-content;
 }
-.ground {
+.Ground {
     background-color: rgb(172, 152, 72);
     width: fit-content;
 }
-.ice {
+.Ice {
     background-color: rgb(48, 202, 202);
     width: fit-content;
     min-width: 70px;
 }
-.normal {
+.Normal {
     background-color: rgb(117, 105, 86);
     width: fit-content;
 }
-.poison {
+.Poison {
     background-color: rgb(104, 20, 130);
     width: fit-content;
 }
-.psychic {
+.Psychic {
     background-color: rgb(204, 24, 114);
     width: fit-content;
 }
-.rock {
+.Rock {
     background-color: rgb(110, 93, 6);
     width: fit-content;
     min-width: 70px;
 }
-.steel {
+.Steel {
     background-color: rgb(131, 145, 216);
     width: fit-content;
 }
-.water {
+.Water {
     background-color: rgb(1, 64, 189);
     width: fit-content;
 }
@@ -160,4 +160,12 @@ button:hover {
     cursor:pointer;
     box-shadow: rgb(129, 71, 110) 2px 2px;
     opacity: 90%;
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
 }
