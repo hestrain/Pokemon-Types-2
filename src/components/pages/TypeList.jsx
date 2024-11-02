@@ -73,6 +73,7 @@ const typeList = [
     {
         type: "Normal",
         weaknesses:["Fighting"],
+        strengths:["Nothing :)"],
         noEffectAgainst:["Ghost"],
         noEffectFrom:["Ghost"],
     },
